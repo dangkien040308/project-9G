@@ -21,20 +21,23 @@ ul {
     background-color: #00a3b9;
     border-radius: 5px;
 }
-.pa {
-    position: absolute;
-    bottom: -40px;
-    font-style: italic;
-    margin: 10px 0 10px 0 ;
-    color: black;
-    text-align: center;
-    width: 100%;
-}
 .img > .ele > img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+.img > .ele {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img > .ele > .pa {
+    color: black;
+    padding-top : 5px ;
+    text-align: center;
+    font-style: italic;
 }
 .img {
     width: 70%;
